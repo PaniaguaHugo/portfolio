@@ -1,0 +1,68 @@
+#footer{
+    padding: 1rem;
+    color: #eee;
+    background: #3338 linear-gradient(transparent,#012) center/cover;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: .5rem;
+}
+
+.social a{
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    margin: .5rem;
+    border-radius: .25rem;
+    background-color: #eee;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2.2rem;
+    filter: grayscale(90%) opacity(0.8);
+}
+
+.social a:hover{
+    /* animation: jump .5s ease-in-out alternate infinite; */
+    transform-origin: bottom center;
+    bottom: .25rem;
+    margin: 0 2rem;
+    filter: drop-shadow(0 .5rem .5rem #333);
+    background-size: 3rem;
+}
+
+a.github{
+    background-image: url('/assets/icon/github.svg');
+}
+
+a.linkedin{
+    background-image: url('/assets/icon/linkedin.svg');
+}
+a.facebook{
+    background-image: url('/assets/icon/facebook.svg');
+}
+
+
+/* @keyframes jump {
+    from{
+        transform: 
+            translate(-1rem, .5rem)
+            rotate(-30deg);
+    }
+    to{
+        transform: 
+            translate(1rem, .5rem)
+            rotate(30deg);
+    }
+} */
+
+/* @keyframes jump {
+    from{
+        transform: translate(0, 0);
+    }
+    to{
+        transform: translate(0, 1rem);
+    }
+} */

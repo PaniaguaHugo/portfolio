@@ -1,0 +1,19 @@
+/* Importaciones */
+
+/* @font-face uso de fuentes locales y src url(..) para importarlas  */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
+
+/* Reglas generales */
+@import url(general.css);
+/* Cabecera */
+@import url(header.css);
+/* Contenido principal */
+@import url('content.css');
+/* Pie de pagina */
+@import url('footer.css');
+/* Tipografia fantasia */
+@font-face {
+    src: url('../assets/fonts/stjedise/STJEDISE.TTF');
+    font-family: 'star-wars';
+};

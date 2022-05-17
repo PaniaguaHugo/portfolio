@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" 
+    content="width=device-width, 
+    initial-scale=1
+    maximun-scale=3">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header id="header">
+
+        <div class="header">
+            <h1>Hugo Paniagua</h1>
+            <p><strong>Presenta: </strong>Maquetación Web</p>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="active">link 1</a></li>
+                <li><a href="">link 2</a></li>
+                <li><a href="">link 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main>
+        <section class="flex">
+            <h2>Lenguajes FrontEnd</h2>
+            <div class="card">
+                <h3 class="card-header orange-gradient">HTML</h3>
+                <p>Leguaje de marcado de hiptertexto que se utiliza para definir la estructura de las paginas
+                    web, utiliza etiquetas para establecer la funcion y jerarquia de los elementos de la misma.
+                    En los ultims años se hace mucho enfasis en la semantica, que permite a los motores de 
+                    busqueda indizar los contenidos del sitio con mayor facilidad.
+                </p>
+            </div>
+            <div class="card">
+                <h3 class="card-header blue-gradient">CSS</h3>
+                <p>
+                    Las hojas de estilo en cascada se utilizan para definir la apariencia de los elementos que 
+                    componen nuestra pagina web, utiliza selectores y reglas para aplicarse dentro de la pagina.
+                    Este lenguaje permite realizar modificaciones en la pagina a nivel visual y es ideal para
+                    proporcionar una grata experiencia de usuario, ademas de una interfaz que responda segun el
+                    tamaño de la pantalla que se visualice.
+                </p>
+            </div>
+            <div class="card">
+                <h3 class="card-header yellow-gradient">Javascript</h3>
+                <p>
+                    Lenguaje de programacion orientado a objetos que se ejecuta directamente en el navegador,
+                    ya que no necesita ser compilado. Implementa ciertas caracteristicas que permiten la
+                    manipulacion de la pagina mediante eventos o acciones de usuario, gracias a los modelos 
+                    DOM Y BOM que corresponden a Docment Object Model y Browser Object Model.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>grilla con flexbox</h2>
+            <div class="row">
+                <div class="col-1">nav</div>
+                <div class="col-2 row">                    
+                    <div class="col-3">header</div>
+                    <div class="col-2">
+                        <div class="col-" style="min-height: 200px;">main</div>
+                        <div class="col-">section</div>    
+                    </div>
+                    <div class="col-1">
+                        <div class="col-">section</div>
+                        <div class="col-"  style="min-height: 200px;">aside</div>
+                    </div>
+                    <div class="col-3">footer</div>
+                </div>
+            </div>
+            <h2>grilla con CSS-grid</h2>
+            <div class="grid">
+                <div>header</div>
+                <div>nav</div>
+                <div>main</div>
+                <div>section</div>
+                <div>section</div>
+                <div>section</div>
+                <div>aside</div>
+                <div>footer</div>
+            </div>
+            <h2>Grilla con plantilla</h2>
+            <div class="template">
+                <div id="cabecera">header</div>
+                <div id="navegacion">nav</div>
+                <div id="principal">main</div>
+                <div>section</div>
+                <div>section</div>
+                <div>section</div>
+                <div id="lateral">aside</div>
+                <div id="pie">footer</div>
+            </div>
+        </section>
+        <section>
+            <h2>Galeria de Dibujos</h2>
+            <div class="gallery">
+                <img src="assets/image-items/millennium_falcon.png" alt="asd1">
+                <img src="assets/image-items/millennium_falcon.png" alt="asd2">
+                <img src="assets/image-items/millennium_falcon.png" alt="asd3">
+                <img src="assets/image-items/millennium_falcon.png" alt="asd4">
+                <img src="assets/image-items/death_star.png" alt="asd5">
+                <img src="assets/image-items/death_star.png" alt="asd6">
+                <img src="assets/image-items/death_star.png" alt="asd7">
+                <img src="assets/image-items/death_star.png" alt="asd8">
+                <img src="assets/image-items/millennium_falcon.png" alt="asd9">
+                <img src="assets/image-items/millennium_falcon.png" alt="asd10">
+                <img src="assets/image-items/millennium_falcon.png" alt="asd11">
+                <img src="assets/image-items/millennium_falcon.png" alt="asd12">
+            </div>
+        </section>
+        <section>
+            <h2>Galeria de dibujos</h2>
+            <!-- <div class="gallery"> 
+                <img src="/assets/image-items/death_star.png" alt="1">
+                <img src="/assets/image-items/death_star.png" alt="2">
+                <img src="/assets/image-items/death_star.png" alt="3">
+                <img src="/assets/image-items/death_star.png" alt="4">
+            </div> -->
+            <h2>Galeria estilo mosaico</h2>
+            <div class="masonry">
+                <img src="/assets/image-items/millennium_falcon.png" alt="1">
+                <img src="/assets/image-items/millennium_falcon.png" alt="2">
+                <img src="/assets/image-items/millennium_falcon.png" alt="3">
+                <img src="/assets/image-items/millennium_falcon.png" alt="4">
+                <img src="/assets/image-items/death_star.png" alt="5">
+                <img src="/assets/image-items/death_star.png" alt="6">
+                <img src="/assets/image-items/death_star.png" alt="7">
+                <img src="/assets/image-items/death_star.png" alt="8">
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="map">
+
+        </div>
+        <form action="" id="contact"></form>
+        <div class="social">
+            <a class="github" href="https://github.com" 
+            target="_blank" title="Revisa mi Github"></a>
+            <a class="linkedin" href="https://linkedin.com" 
+            target="_blank" title="Conectemos en LinkedIn"></a>
+            <a class="facebook" href="https://facebook.com" 
+            target="_blank" title="Sigueme en Facebook"></a>
+        </div>
+        <p class="copy">&copy; 2022 Todos los derechos reservados</p>
+    </footer>
+
+    <script src="scripts/main.js">
+    </script>
+</body>
+</html>

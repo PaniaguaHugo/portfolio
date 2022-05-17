@@ -1,0 +1,34 @@
+*{
+    /* border box usa todo el ancho del elemento */
+    box-sizing: border-box; 
+    font-family: 'Raleway', 'calibri', sans-serif;
+}
+
+/* Margenes */
+body,
+h1,
+h2,
+h3,
+h4,
+header p,
+.menu{
+    margin: 0;
+}
+/* Rellenos */
+.menu{
+    padding: 0;
+}
+/* Bordes */
+iframe{
+    border: none;
+}
+/* Estilos */
+#header a,
+#footer a{
+    text-decoration: none;
+}
+
+.menu{
+    list-style: none;
+}
+/* Componentes */

@@ -1,0 +1,58 @@
+#header{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.header{
+    padding: min(50%, 270px) 1rem;
+    font-size: min(calc(2vw + .5rem), 3rem);
+
+    /*  Explicacion:
+        min(a,b) utiliza el valor más chico
+        a=       calcula 2% viewport + 1/2 font html
+        b=       equivalente a 3 vecs font html
+    */
+    color: #eee;
+    background: 
+    url('../assets/image-items/millennium_falcon.png') 20% 50%/min(50%, 600px) no-repeat, /* millenium falcol */
+    /* death star */
+    url('../assets/image-items/death_star.png') 80% 10%/min(20%,300px) no-repeat,
+    
+    #012 url('../assets/bg/bg_night_sky.jpg') center/cover; /* galaxy */
+    /* color image, position/size, repeat */
+    background-attachment: 
+        scroll,
+        fixed,
+        fixed;
+    ;
+}
+
+.header h1,
+.header span{
+    text-shadow: 0 0 .5rem;
+    letter-spacing: 0.5rem;
+    font-family: 'star-wars';
+}
+
+.menu{
+    display: flex;
+    padding: 1rem;
+    background-color: #284;
+}
+
+.menu a{
+    padding: .5rem; /* riit EM */
+    color: #ac6;
+}
+
+.menu a.active,
+.menu a:hover{
+    color: #dfc;
+    text-shadow: 0 0 .5rem #efc;
+}
+a:link{
+    color: grey;
+}
+
+/* EM */ 
